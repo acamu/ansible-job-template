@@ -1,0 +1,6 @@
+
+- name : user-create 
+  src: https://github.com/acamu/ansible-admin-roles.git
+  scm: git
+  version: "master"
+
