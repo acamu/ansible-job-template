@@ -1,0 +1,13 @@
+---
+# This playbook create user account with sudo permission.
+
+- hosts: localhost
+  remote_user: root
+  become: yes
+  become_method: sudo
+
+  roles:
+  - role: user-create
+
+
+

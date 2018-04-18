@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Wcamu
+  description: Playbook for create user on server with sudo permission.
+
+  license: Apache
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+    - admin
+    - user
+dependencies: []
